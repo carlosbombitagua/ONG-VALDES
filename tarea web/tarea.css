@@ -1,27 +1,76 @@
-h1{
+h1 {
     text-align: center;
     font-size: 45px;
 }
-h3{
+
+h3 {
     text-align: center;
     font-size: 30px;
 }
-h2{
+
+h2 {
     text-align: center;
     font-size: 40px;
 }
-.love{
+
+.love {
     padding-left: 100px;
     font-size: 20px;
 }
-#loco{
+
+#loco {
     text-align: center;
     font-size: 40px;
 }
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 
-div{
-    padding-left: 1750px;
 }
-    
 
+.foto-animal {
+    margin-left: 100px;
+}
+
+.enlaces {
+    margin-left: 80px;
+    font-size: 24px;
+}
+
+
+nav{
+    text-align: right;
+    font-size: 24px;
+}
+
+.animal-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-animal {
+    width: 340px;
+    height: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar-animal.perro1 {
+    background-image: url("PERRRO.jpg");
+}
+
+.avatar-animal.gato1 {
+    background-image: url("descarga2.jfif");
+}
+
+.avatar-animal.niña1 {
+    background-image: url("descarga2.jfif");
+}
+
+.animal-description {
+    margin-left: 60px;
+    font-size: 22px;
+}
